@@ -1,5 +1,5 @@
 body{
- background: linear-gradient(70deg,#e91b1b 0%, #7d2323 20%, #e91b1b 80%);  /*Gradiente de cores */
+ background: linear-gradient(70deg,#424549 0%, #4245493 20%, #424549 80%);  /*Gradiente de cores */
 
    /* background-color: #a43535; */
 
@@ -44,5 +44,6 @@ h1{
 p{
     color: aqua;
 }
+
 
 
