@@ -1,0 +1,46 @@
+body{
+ background: linear-gradient(70deg,#e91b1b 0%, #7d2323 20%, #e91b1b 80%);  /*Gradiente de cores */
+
+   /* background-color: #a43535; */
+
+
+}
+
+.faq-item {
+    transition: all 0.3s ease;
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    
+}
+
+.faq-item.active .faq-content {
+    max-height: 500px;
+}
+
+.faq-item.active .chevron {
+    transform: rotate(180deg);
+}
+
+.chevron {
+    transition: transform 0.3s ease;
+}
+
+.language-btn.active {
+    background-color: #3b82f6;
+    color: white;
+}
+div{
+    background-color: #ffffff;
+}
+
+h1{
+    color: #000000;
+    font-size: 200px;
+}
+p{
+    color: aqua;
+}
